@@ -17,4 +17,8 @@ public class Calculadora {
     public Resultado multiplicacao(Multiplicador multiplicador, Multiplicando multiplicando) {
         return new Resultado(multiplicador, multiplicando);
     }
+
+    public Resultado multiplicacao(Multiplicando multiplicando, Multiplicador multiplicador) {
+        return new Resultado(multiplicando, multiplicador);
+    }
 }
