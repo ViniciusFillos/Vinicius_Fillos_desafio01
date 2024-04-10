@@ -4,6 +4,9 @@ import br.com.desafio03.tipos.Multiplicador;
 import br.com.desafio03.tipos.Multiplicando;
 import br.com.desafio03.tipos.Resultado;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Calculadora {
 
     public void soma(Integer parametro1, Integer parametro2){
@@ -18,7 +21,9 @@ public class Calculadora {
         return new Resultado(multiplicador, multiplicando);
     }
 
-    public Resultado multiplicacao(Multiplicando multiplicando, Multiplicador multiplicador) {
-        return new Resultado(multiplicando, multiplicador);
+    public List<Resultado> multiplicacao(Multiplicando multiplicando, Multiplicador multiplicador) {
+        List<Resultado> list = new ArrayList<>();
+        list.add(new Resultado(multiplicando, multiplicador));
+        return list;
     }
 }
