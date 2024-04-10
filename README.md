@@ -32,4 +32,5 @@ Fácil sem muitos problemas além de erros em commits ou git em geral;
 ### Desafio03
 --> Não faz sentido porque do meu código não funcionar 🤡, criei classes com um atributo para o valor e na calculadora estou passando objetos para terem seus valores multiplicadose voltar em um objeto resultado.    
 --> Descobri que precisava de mais uma sobrecarga de multiplicação recebendo os parametros invertidos, avanço, agora o erro se concentra no retorno do método.
-OBS - não estou mais comentendo muitos erros com o git :D
+OBS - não estou mais comentendo muitos erros com o git :D     
+--> Funcionou!!! Depois de ler muito o aquivo de teste de desafio e ler os métodos em um tipo de engenharia reversa, fui entendendo como a estrutura funciona e quais deveriam ser os tipos de retorno.
