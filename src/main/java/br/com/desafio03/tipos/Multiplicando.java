@@ -10,8 +10,4 @@ public class Multiplicando {
     public Integer getMultiplicando() {
         return multiplicando;
     }
-
-    public void setMultiplicando(Integer multiplicando) {
-        this.multiplicando = multiplicando;
-    }
 }

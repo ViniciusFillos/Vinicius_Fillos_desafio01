@@ -10,8 +10,4 @@ public class Multiplicador {
     public Integer getMultiplicador() {
         return multiplicador;
     }
-
-    public void setMultiplicador(Integer multiplicador) {
-        this.multiplicador = multiplicador;
-    }
 }

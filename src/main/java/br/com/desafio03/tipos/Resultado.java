@@ -10,12 +10,4 @@ public class Resultado {
     public Resultado(Multiplicando multiplicando, Multiplicador multiplicador) {
         this.resultado = multiplicador.getMultiplicador()*multiplicando.getMultiplicando();
     }
-
-    public Integer getResultado() {
-        return resultado;
-    }
-
-    public void setResultado(Integer resultado) {
-        this.resultado = resultado;
-    }
 }
