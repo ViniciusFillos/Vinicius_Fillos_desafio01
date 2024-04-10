@@ -7,6 +7,10 @@ public class Resultado {
         this.resultado = multiplicador.getMultiplicador()*multiplicando.getMultiplicando();
     }
 
+    public Resultado(Multiplicando multiplicando, Multiplicador multiplicador) {
+        this.resultado = multiplicador.getMultiplicador()*multiplicando.getMultiplicando();
+    }
+
     public Integer getResultado() {
         return resultado;
     }
